@@ -1,0 +1,101 @@
+<div style="margin:0; padding:0; background-color:#eef0f3; font-family:Arial, Helvetica, sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#eef0f3; padding:40px 16px;">
+    <tr>
+      <td align="center">
+        <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:640px; background-color:#ffffff; border:1px solid #d2d7dd; border-radius:8px; overflow:hidden;">
+          
+          <tr>
+            <td style="background-color:#173e66; padding:30px 32px; text-align:center;">
+              <h1 style="margin:0; color:#ffffff; font-size:26px; line-height:1.3; font-weight:700;">
+                New Contact Form Submission
+              </h1>
+              <p style="margin:8px 0 0; color:#dbe7f3; font-size:14px; line-height:1.5;">
+                Buy Rite Properties LLC
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:32px;">
+              <p style="margin:0 0 22px; color:#4e6176; font-size:16px; line-height:1.6;">
+                You received a new inquiry from your website contact form.
+              </p>
+
+              <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;">
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#132f4f; font-size:14px; font-weight:700; width:140px;">
+                    Name
+                  </td>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#4e6176; font-size:15px;">
+                    {{from_name}}
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#132f4f; font-size:14px; font-weight:700;">
+                    Email
+                  </td>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#4e6176; font-size:15px;">
+                    <a href="mailto:{{from_email}}" style="color:#173e66; text-decoration:none;">
+                      {{from_email}}
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#132f4f; font-size:14px; font-weight:700;">
+                    Phone
+                  </td>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#4e6176; font-size:15px;">
+                    {{from_phone}}
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#132f4f; font-size:14px; font-weight:700;">
+                    Inquiry Type
+                  </td>
+                  <td style="padding:12px 0; border-bottom:1px solid #e5e8ec; color:#4e6176; font-size:15px;">
+                    {{user_type}}
+                  </td>
+                </tr>
+              </table>
+
+              <div style="margin-top:28px;">
+                <h2 style="margin:0 0 12px; color:#132f4f; font-size:18px; line-height:1.4;">
+                  Message
+                </h2>
+                <div style="background-color:#f7f8fa; border:1px solid #e1e5ea; border-radius:6px; padding:18px 20px;">
+                  <p style="margin:0; color:#4e6176; font-size:15px; line-height:1.7; white-space:pre-line;">
+                    {{message}}
+                  </p>
+                </div>
+              </div>
+
+              <div style="margin-top:28px; text-align:center;">
+                <a href="mailto:{{from_email}}" style="display:inline-block; background-color:#173e66; color:#ffffff; font-size:15px; font-weight:700; text-decoration:none; padding:12px 22px; border-radius:4px;">
+                  Reply to {{from_name}}
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color:#f5f6f8; padding:18px 32px; text-align:center; border-top:1px solid #e1e5ea;">
+              <p style="margin:0; color:#6b7785; font-size:12px; line-height:1.5;">
+                This email was sent from the Buy Rite Properties LLC website contact form.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+Sub ject is
+New Contact Message from {{from_name}}
