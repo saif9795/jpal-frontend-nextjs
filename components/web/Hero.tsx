@@ -15,10 +15,13 @@ export default function Hero() {
             Florida Real Estate
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-5xl  mb-4 font-normal leading-tight ">
-            Partnerships Acquisitions
+            Partnerships
+          </h2>
+          <h2 className="text-2xl md:text-3xl lg:text-5xl  mb-4 font-normal leading-tight ">
+            Acquisitions
           </h2>
           <h2 className="font-playfair text-3xl md:text-3xl lg:text-5xl font-700 leading-tight mb-10 text-[#C9A84C]">
-            Trusted Partnerships.
+            Trusted Partnerships
           </h2>
           <div className="flex gap-4 flex-wrap">
             <Button

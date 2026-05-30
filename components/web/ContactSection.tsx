@@ -122,7 +122,7 @@ export default function ContactSection() {
               Contact us
             </h2>
             <p className="mt-4 max-w-[560px] font-sans text-[16px] leading-relaxed text-[#5a6f85]">
-              Detailed partnership agreement information promissory note
+              Detailed partnership agreement information, promissory note
               documentation, and, upon request, our operating agreement, will be
               provided to qualified individuals, corporate entities, and lenders
               for review during the due diligence process. All documentation is
@@ -131,8 +131,8 @@ export default function ContactSection() {
             </p>
 
             <p className="mt-4 max-w-[560px] font-sans text-[16px] leading-relaxed text-[#5a6f85]">
-              Whether you&apos;re a homebuyer, a real estate investor, a lender
-              or looking to partner with us
+              Whether you're a homebuyer, a real estate investor, a lender, or
+              looking to partner with us...
             </p>
 
             <div className="mt-9 space-y-6">
@@ -148,8 +148,9 @@ export default function ContactSection() {
 
                   <p className="font-sans text-[15px] leading-relaxed text-[#5a6f85]">
                     Buy Rite Properties <br />
-                    470 Fountains Drive South <br />
-                    Lake Worth, Florida 33461
+                    470 Fountains Drive South
+                    <br />
+                    Lake Worth, Florida 33467
                   </p>
                 </div>
               </div>
@@ -163,7 +164,7 @@ export default function ContactSection() {
                     Email
                   </p>
                   <p className="font-sans text-[15px] leading-relaxed text-[#5a6f85]">
-                    info@buy-riteproperties.com
+                    info@buyrite-properties.com
                   </p>
                 </div>
               </div>
