@@ -148,10 +148,10 @@ export default function ContactSection() {
 
                   <p className="font-sans text-[15px] leading-relaxed text-[#5a6f85]">
                     Buy Rite Properties <br />
-                    470 Fountains Drive South
-                    <br />
-                    Lake Worth, Florida 33467<br />
                     4710 Fountains Drive South
+                    <br />
+                    Lake Worth, Florida 33467
+                    <br />
                   </p>
                 </div>
               </div>

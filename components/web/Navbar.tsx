@@ -107,7 +107,7 @@ export default function Navbar() {
         <section className="flex flex-col items-center gap-4 text-center">
           <div>
             <h1 className="font-serif text-base font-semibold lg:text-5xl">
-              Buy - Rite Properties
+              Buy Rite Properties
             </h1>
           </div>
 
